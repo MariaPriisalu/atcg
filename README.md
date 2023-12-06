@@ -1,4 +1,4 @@
-# Official Repository of _SVaried Realistic Autonomous Vehicle Collision Scenario Generation_ #
+# Official Repository of _Varied Realistic Autonomous Vehicle Collision Scenario Generation_ #
 
 
 Code for the paper [_Varied Realistic Autonomous Vehicle Collision Scenario Generation_](https://link.springer.com/chapter/10.1007/978-3-031-31438-4_24) published at the Scandinavian Conference on Image Analysis.
