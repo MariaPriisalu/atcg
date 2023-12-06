@@ -1,0 +1,54 @@
+{
+	"_comment": "If randomSpawnLocation is 0, then the car will be spawned at location X,Y,Z. Else if 1, a random spawn point on the map will be used. If staticCar, then the hero car will not move at all. The TX,TY,TZ represent the target location and used if not a static car, but they can miss - meaning that car will not stop at that position, same with lidarData if heroView = 0. frame_step default is 10, this means at each 10 frames you will have a new lidar and images output coming out. sensorsDisplacementDist shows how much you want to project the lidar/camera/etc sensors in front of the car from the center, going in the forward vehicle direction",
+	"env_width":128,
+	"env_depth":256,
+	"env_height":32,
+	"_comment": "The camera default used up until now was x=0, y = -width/2",
+	"_comment2": "Width is on Y axis while Depth is on X axis...",
+	"camera_pos_x":0,
+	"camera_pos_y":-64,
+	"scenes":{		
+			"scene101":{
+			"map":"Town03",
+			"framesPerEpisodes":200,
+			"numEpisodesPerScene":6,
+			"numCarlaVehicles":2,
+			"numCarlaPedestrians":8,
+			"numTrainableVehicles": 1,
+			"numTrainablePedestrians": 1,
+			"simFixedSeed":0,
+			"randomObserverSpawnLocation" : 1,
+			"staticCar" : 1,
+			"X":-9.40,
+			"Y":136.90,
+			"Z":0.0,
+			"pitch":0.0,
+			"roll":0.0,
+			"yaw":90.0,
+			"TX":-9.80,
+			"TY":179.85,
+			"TZ":0.0,
+			"heroView":1,
+			"rerouteAllowed":0,
+			"voxelRes":5.0,
+			"voxelsX":1024,
+			"voxelsY":512,
+			"voxelsZ":700,
+			"sensorsDisplacementDist" : 19,
+
+				"lidarData":{
+				"useLidar":1,
+				"noise_dropoff_general_rate":0.0,
+				"noise_dropoff_intensity_limit":1.0,
+				"noise_dropoff_zero_intensity":0.0,
+				"upperFOV":30.0,
+				"lowerFOV":-25.0,
+				"channels":64,
+				"range":100.0,
+				"pointsPerSecond":1000000.0
+				},
+			"frame_step":10,
+			"frame_step_replay":1
+			}
+		}
+}
