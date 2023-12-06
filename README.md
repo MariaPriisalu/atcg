@@ -3,7 +3,7 @@
 
 Code for the paper [_Varied Realistic Autonomous Vehicle Collision Scenario Generation_](https://link.springer.com/chapter/10.1007/978-3-031-31438-4_24) published at the Scandinavian Conference on Image Analysis.
 
-**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en), [Aleksis Pirinen](https://www.ri.se/en/person/aleksis-pirinen) and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
+**Authors:** [Maria Priisalu](http://www.maths.lth.se/sminchisescu/research/profile/7/maria-priisalu), [Ciprian Paduraru](https://scholar.google.com/citations?user=EaAekU4AAAAJ&hl=en),  and [Cristian Sminchisescu](http://www.maths.lth.se/sminchisescu/)
 
 ### Overview
 This repository contains code for training the Semantic Pedestrian Locomotion agent and the Adversarial Test Case Generator.
